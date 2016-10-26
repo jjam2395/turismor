@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hola mundo con React.Js</title>
+</head>
+<body>
+<section id="container"></section>
+	
+	<script src="http://fb.me/react-0.13.3.js"</script>
+	<script src="http://fb.me/JSXTransformer-0.13.3.js"></script>
+	<script type="text/jsx;garmony=true">
+		Class HelloWorldComponent = extends React.Component{
+		render(){
+		return <h1>Hola {this.props.name}!</h1>
+		}
+		}
+
+		React.render()<HelloWorldComponent name="Squirtle" />, document.getElemetnById('container'));
+		setTimeout(() => {
+		React.render()<HelloWorldComponent name="Wildturtle" />, document.getElemetnById('container'));
+		}
+	</script>
+</body>
+</html>

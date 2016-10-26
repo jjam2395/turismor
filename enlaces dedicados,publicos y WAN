@@ -1,0 +1,153 @@
+enlaces: dedicados y públicos.
+
+Wan
+
+-privada
+	-dedicada
+		-lineas arrendadas
+			-T1/E1
+			-T3/E3
+	-conmutado
+		-conmutada por circuitos
+			-PSTDN
+
+-punlico
+
+
+Enlaces decicados
+
+Fueron la primera tecnologia WAN que se adopto usando la infraestuctura de voz de los distintos operadores de telefonia
+
+conexiones permanentes punto-punto o punto-multipintp
+
+
+Se utilizan por empresas, instituciones
+
+
+son soluciones seguras y estables 
+
+
+Enlaces Publicos
+
+	- El proveedor de servicios puede ofrecer acceso a internet de banda ancha mediante una linea de suscriptor digital (DSL) cable y acceso satelital
+
+	- Se usan para conectar oficinas pequeñas y trabajadores a distancia a un sitio corporativo a través de internet 
+
+	- Las conexiones publicas utilizan la infraestrcutura global de internet
+	- Con el desarrollo de la tecnologia VPN, internet es una opciòn económica y segura para conectarse.
+
+
+	Infraestructuras WAN publicas
+
+	 * DSL:
+	 usa las lineas telefonicas  de par trenzado existentes para transportar datos con un ancho de banda elevado y proporciona servicios IP a los suscriptores
+
+	 *Cable:
+	 para distribuir las señales de television se usa ampliamente el cable coaxial.
+	 Los cable modems proporcionan una conexion permanwente y tienen una instalacion simple.
+
+	 · Inalambrico:
+	 	Para enviar y recibir datos, la tecnologia inalambrica usa el espectro de radio sin licencia. Cualquier persona que tenga un router inalambrico y tecnologia inalambrica en el dispositivo que utilice puede acceder al espectro sin licencia.
+	 · Datos moviles 3G, 4G:
+	 	Se usa para conectar usuarios y ubicaciones remotas donde no hay otra tecnologia de acceso WAN dosponible.
+	 · Tecnologia VPN:
+	 	Conexion cifrada entre redes privadas a traves de una red publica, como internet.
+
+
+
+ Topologias de redes WAN
+
+ REDES WAN  WIde Area Network
+
+ tipo de red de computadoreas capaz de cubir distancias desde unos 100 hasta unos 1000km, dando el servicio a un pais o un continente.
+
+ utilizan protocoloes, las topologias en las comunicaciones informaticas que permiten interpretar la informacion de una misma forma.
+
+ Muchas WAn son construidas por y para una organizacion o empresa particular y son de uso privado, otras son construidas por los proveedores de internet (ISP) para proveer de conexion a sus clientes. En el caso de que la infraestructura sea relativamente amploa, se utilizan los repetidores o puentes a una nueva red.
+
+ La WAN es una red punto apunto, es decirm red de paquete conmutado. las redews WAN pueden usar sostemas de comunicacion via satelite o de radio. Fue la aparicion de los portatiles  y los PDAS a las que trajo el concecpto de redes inalambricas
+
+ Una red de area amplia o WAN (wide Area Network) se extiende sobre un area geografica extensa,s a veces un pair o un continente, su funcion fundamenta esta orientada a la interconexion de redes o equipos terminales ques e encuentran ubicados a grandes distancias entre si.
+
+ Las redes WAN aprovechen la multiplexacion de un canal de comunicacion para que puedan ser transmitidas varias comunicaciones simultaneamente.
+
+La infraestrutura de redes WAN la componen, ademasd e los nodos de conmutacion, lineas de transmision de grandes prestaciones.
+
+Las lineas de transmision (tambien llamadas "cicuitos", "canales" o "troncales") mueven informacion entre los diferentes nodos que componen la red.
+
+Los elementtos de conmutacion tambien son dispositivos de altas prestaciones, pues deben ser capaces de manejar la cantidad de trafico que por ellos circula.
+
+* Caractereisticas:
+
+- posee maquinas dedicadas a la ejecucion de programas de usuarios (hosts).
+- una subred, donde conectan uno o varios hosts. 
+- Divisionn entre lineas de transmision y elementos de conmutacion (enrutadores).
+- usualmente los routers son computadoras de las subredes que componen la WAN.
+
+
+
+Topologias
+
+*Topologia fisica
+
+se refiere a la forma fisica o patron que forman los nodos que estan coenctados a la red, sin especificar el tipo de dispositivo, los metodos de conectividad o las direccione en dicha red.
+
+Esta basada en tres formas vasicas fundamentales: bus, anilllo y estrella.
+
+	-topologia de bus
+	-topologia de anillo
+	-topologia en estrella
+
+Topologia Logica
+
+Ddescribe la manera en que los datos son convertidos a un formato de trama especifico y la manera en que los oultos electricos son transmisitdos a traves del medio de comunicacion, por lo que esta topologia esta directamente relacionada con la capa fisica y la capa de enlace del modelo OSI.
+
+Las topologias logicas mas populares son Ethernet y Token-ring, ambas muy usadas en redes LAN.
+
+
+
+Entre las topologias logicas usadas para redes WAN tenemos a ATM (Asynchronues Transfer Mode) que es conocido tambien como estandar ATM
+
+En el caso de las redes WAN, su topologia fisica puede llegar a ser mas compleja y no responder a las formas basicas (bus, estrella y anillo), debio a varios factores determinantes; la distancia que deben cubir las redes, la cantidad enorme de usuarios, el trafico que deben soportar y la diversidad de equipos de interconexion que deben usar.
+
+Existe un grupo establecido de topologias que son las mas usadas, y la implementacion de cada una de ellas en particular esta condicionada por encesidaders especificas, como pueden ser: cantidad de nodos a conectar, distancia entre los nodos e infraestructura establecido en ello.
+
+Topologias usadas en redes WAB 
+
+* Punto a Punto
+
+- Esta topologia cada noodo se conecta a otro a traves de cicrcuitos dedicados.
+- Esta configuracion es solo funcional para pequeñas WANs ya que todos los nodos deben participar en el trafico
+
+* Anillo
+
+- Cada nodo es conectado a otros dos mas formando un patron de anillo
+
+- Tiene dos ventajas; por un lado si existe algun problema en las conexiones en un cable, la informacion le sigue llegando al nodo usuando otro recorrido y si algun nodo esta muy ocupado el trafico se puede dervirar hacia otros nodos.
+
+* Estrella
+- En esta configuracion un nodo actua como punto central de conexion para todos los demas, permitiendo asi que en caso de que exista un fallo en alguno de los cables los demas nodos no pierdan conexion con el nodo central
+
+- Sus conectividades pueden ser desde un switch (RJ45, UTP5 o Cat6) hasta fibra optica, si se tiene la tecnologia.
+
+- Esta se encarga de gestionar las comunicaciones en los equipos con concentradores.
+
+- La principal desventaja de esta topologia es que algun problema que exista en el nodo central se convierte en un desastre total para la red ya que se pierde la conexion de todos los nodos. Ademas de que la velocidad de transmision de datos es baja.
+
+* Malla
+
+- En esta topologia la esencia es buscar la interconexion de los nodos de tal manera que si uno falla los demas puedan redireccionar los datos rapida y facilmente.
+
+- La principal desventaja de las redes tipo malla es su costo.
+
+Topologias de los routers en una red de area amplia (WAN):
+
+- Estrella
+- Anillo
+- Arbol
+- Completa
+- Interseccion de anillos
+- Irregular
+
+I <3 Cecy c:
+

@@ -1,0 +1,76 @@
+body{
+	background-color: #f1e344;
+	background-color: #FFF6D2;
+	font-family: 'Bree Serif', Serif;
+	font-size: 1.em;
+}
+
+logo-container{
+	background-color: #734794;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Bree Serif', Serif;
+	color: #3D115F;
+}
+
+
+#logo-container{
+	background-color: #f1dfff;
+}
+#logo-container .callout{
+	background-color: #f1dfff;
+	margin-bottom: 0;
+	border: 0;
+}
+
+
+#social-container{
+	background-color: #57dc3c;
+	background-color: #CAB6DA;
+}
+
+#menu-container{
+	background-color: #58287D;
+	
+}
+
+#menu-container  li a{
+	color:#fff;
+}
+
+#menu-container li a:hover{
+	color:#9976B3;
+}
+
+#submenu-container{
+	border:0;
+}
+
+#submenu-container li a {
+	background-color: #58287D;; 
+}
+
+#mapa-action,
+#mapa-action .tabs,
+#mapa-action .tabs .tabs-title {
+	padding: 1em 0;
+	background-color: #B0D05D;
+	color: #FFF;  
+	border:0;
+}
+
+#mapa-action .tabs .tabs-title a{
+	font-size: 18px;
+	color:#EDF9CD;
+}
+
+#mapa-action .tabs .tabs-title a:hover{
+	font-size: 18px;
+	color: #FFF;
+	background-color:#B0D05D; 
+}
+
+#mapa-action h2{
+	color: #FFF;
+}
