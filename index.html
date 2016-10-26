@@ -53,21 +53,32 @@
   </section>
 
   <section id="mapa-action">
-  <h2 class="text-center">Visita Morelos</h2>
-    <ul class="tabs" data-tabs id="lineup-tabs">
-      <li class="tabs-title"><a href="#">Eventos</a></li>
-      <li class="tabs-title"><a href="#">Restaurantes</a></li>
-      <li class="tabs-title"><a href="#">Atracciones Turisticas</a></li>
+  <h3 class="text-center">Visita Morelos</h3>
+    <ul class="tabs text-center" data-tabs id="lineup-tabs">
+      <li class="tabs-title is-active"><a href="#panelEventos">Eventos</a></li>
+      <li class="tabs-title"><a href="#panelBalnearios">Balnearios</a></li>
+      <li class="tabs-title"><a href="#panelArqueologicas">Zonas Arqueologicas</a></li>
     </ul>
   <div class="row expanded text-center">
     <div class="column small-12 large-8">
       <img src="images/morelosMapa.png" width="700px" alt="mapa interactivo de Morelos">
     </div>
-    <div class="column">
-      lugares chidos
-    </div>
-    
+      <div class="row tabs-content" data-tabs-content=lineup-tabs>
+        <div class="tabs-panel is-active" id="panelEventos">
+          Eventos chidos
+        </div>
+
+        <div class="tabs-panel" id="panelBalnearios">
+          Balnearios chidos
+        </div>
+
+        <div class="tabs-panel" id="panelArqueologicas">
+          zonas arqueologias mas chidas
+        </div>
+      </div>
   </div>
+
+    </div>
   </section>
 
 

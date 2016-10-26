@@ -51,12 +51,21 @@ h1,h2,h3,h4,h5,h6{
 	background-color: #58287D;; 
 }
 
+#mapa-action{
+	padding: 1em 0;
+}
+
 #mapa-action,
 #mapa-action .tabs,
-#mapa-action .tabs .tabs-title {
-	padding: 1em 0;
+#mapa-action .tabs-panel,
+#mapa-action .tabs .tabs-title,
+#mapa-action .tabs .tabs-title.is-active a {
 	background-color: #B0D05D;
 	color: #FFF;  
+	border:0;
+	text-transform: uppercase;
+}
+.tabs-content{
 	border:0;
 }
 
@@ -71,6 +80,11 @@ h1,h2,h3,h4,h5,h6{
 	background-color:#B0D05D; 
 }
 
-#mapa-action h2{
+.tabs-title{
+	display: inline-block;
+	float:none;
+}
+
+#mapa-action h3{
 	color: #FFF;
 }
